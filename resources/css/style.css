@@ -45,6 +45,11 @@ p {
     margin-inline-end: 0px;
 }
 
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
 .footer {
     text-align: right;
 }
