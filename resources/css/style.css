@@ -11,3 +11,40 @@ body {
     display: block;
     margin: 8px;
 }
+h1 {
+    font-size: 50px;
+    font-weight: normal;
+}
+body {
+    font-family: Verdana, sans-serif;
+    text-align: center;
+    background-color: black;
+}
+
+video {
+    object-fit: contain;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+h2 {
+    font-size: 42px;
+    font-weight: 300;
+}
+
+p {
+    color: Gray;
+    font-size: 21px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.footer {
+    text-align: right;
+}
